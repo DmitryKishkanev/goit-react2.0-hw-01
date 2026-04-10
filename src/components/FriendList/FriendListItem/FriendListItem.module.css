@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+.name {
+  margin: 0;
+
+  color: black;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.status {
+  margin-left: auto;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
